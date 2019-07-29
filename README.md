@@ -33,8 +33,11 @@ Enter second number:
 5 / 3 = 1.6666666666666667
 ```
 
-<details><summary>Help I'm stuck!</summary>
-Take a look at how methods are defined and called in Ruby in our [intro lesson](https://git.generalassemb.ly/sei-nyc-pandas/ruby). The first method should look something like this:
+If you're stuck, start by taking a look at how methods are defined and called in Ruby in our [intro lesson](https://git.generalassemb.ly/sei-nyc-pandas/ruby).
+
+
+<details><summary>Help! I'm still stuck!</summary>
+ The first method should look something like this:
 
 ```rb
 def add(num1, num2)
@@ -45,7 +48,8 @@ end
 
 </details>
 
-<details><summary>I'm still stuck!</summary>
+
+<details><summary>I'm STILL stuck!</summary>
 Here is the structure of calculate:
 
 ```rb
@@ -66,6 +70,34 @@ calculate
 ```
 
 </details>
+
+## Letter Guesser
+- In your folder, `touch` a file called `letter.rb`.
+- Define a method called `letter_guesser`.
+- Inside your method, create an array from "a" to "z" using the `range` syntax and save this array to a variable.
+- Using `rand`, generate a random number between 0 and the length of your alphabet array. Save this number to a variable.
+- Use that random number as an index and select the correlating letter from your alphabet array.
+- Using string interpolation, inform the user what letter they have received and ask them to guess the letter's index number.
+- Save the user's answer to a variable with `gets.chomp`.
+- Use conditional logic to check if the user's guess matches the actual index of the random letter. If it does, tell them that they're a genius at the alphabet; if it doesn't match, tell them that they need to learn their ABCs and use string interpolation to give them the correct answer.
+- Make sure to close your `letter_guesser` method with `end`.
+- Call `letter_guesser`.
+- Go back to the terminal and run the file you just created with `ruby letter.rb`
+
+
+The result should look something like this in your terminal:
+
+```rb
+Your letter is c. Guess c's index number.
+2
+Whoa! You're like a genius when it comes to the alphabet!
+```
+
+```rb
+Your letter is z. Guess z's index number.
+1 
+You lose! Looks like you need to learn your ABC's. The index of z is actually 25.
+```
 
 ## FizzBuzz in Ruby
 Remember FizzBuzz? It's that puzzle where you iterate from 1 to 100, printing "Fizz" for every multiple of 3, "Buzz" for everything multiple of 5, and "FizzBuzz" for every multiple of 3 && 5. All other numbers should just print themselves.
@@ -230,3 +262,7 @@ David Magicbeard has 10 hitpoints left. Drake on Coffee has -5 hitpoints left.
 Drake on Coffee has lost to David Magicbeard. The world is safe!... for now.
 ```
 
+## Finished Early?
+Wow! Congrats for surviving the gauntlet! We're genuinely impressed! Let's pass your skills forward:
+
+Create a new challenge and use Slack to send it to your instructor. We'll review it, and if it fits within the scope of our class's current Ruby knowledge, we'll add it to this list!
