@@ -18,9 +18,10 @@ Let's warm up by making some methods to do basic math.
 - In your `ruby_practice` folder, `touch` a file called `calculator.rb`
 - Define a method called `add` that takes two numbers and adds them together. Use `puts` to show the expression and answer.
 - Following this pattern, define methods for `subtract`, `multiply`, and `divide`. 
-  - >Hint: Integers may not work for divide...
+  - >Hint: Review how division works in Ruby...
 - Define a method called `compute`. This method will not need to take any parameters.
-- Inside `compute` use `puts` to ask the user for the first and second number and `gets.chomp.to_i` let the user input those numbers and store those store them to variables. 
+- Inside `compute` use `puts` to ask the user for the first and second number and `gets.chomp` let the user input those numbers and store those store them to variables. 
+  - >Hint: Check the data type of your newly collected variables...
 - Call `add`, `subtract`, `multiply`, and `divide` using the two numbers you just stored as the arguments for each.
 - Make sure to end any open blocks and close the `calculate` method.
 - Below your newly defined method, call `calculate`.
