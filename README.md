@@ -5,14 +5,6 @@ You may want to refer to our [Intro to Ruby lesson](https://git.generalassemb.ly
 
 To get started, `mkdir` a folder called `ruby_practice` and `cd` into it. 
 
-Problems:
-- conditional logic by age in ruby with if
-- conditional logic by age in ruby with unless
-- build a calculator in ruby
-- puts from 1 to 20 with a while loop
-- puts from 1 to 20 with an until loop
-- puts from 1 to 20 with a recursive method
-
 ## Calculator
 Let's warm up by making some methods to do basic math.
 - In your `ruby_practice` folder, `touch` a file called `calculator.rb`
