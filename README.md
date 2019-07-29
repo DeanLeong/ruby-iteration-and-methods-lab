@@ -8,7 +8,7 @@ To get started, `mkdir` a folder called `ruby_practice` and `cd` into it.
 ## Calculator
 Let's warm up by making some methods to do basic math.
 - In your `ruby_practice` folder, `touch` a file called `calculator.rb`
-- Define a method called `add` that takes two numbers and adds them together. Use `puts` to show the expression and answer.
+- Define a method called `add` that takes two numbers and adds them together. On the first line of this function, do the actual math; on the second line, use `puts` to print the expression and answer.
 - Following this pattern, define methods for `subtract`, `multiply`, and `divide`. 
   - >Hint: Review how division works in Ruby...
 - Define a method called `compute`. This method will not need to take any parameters.
@@ -33,6 +33,39 @@ Enter second number:
 5 / 3 = 1.6666666666666667
 ```
 
+<details><summary>Help I'm stuck!</summary>
+Take a look at how methods are defined and called in Ruby in our [intro lesson](https://git.generalassemb.ly/sei-nyc-pandas/ruby). The first method should look something like this:
+
+```rb
+def add(num1, num2)
+  answer = num1 + num2
+  puts "#{num1} + #{num2} = #{answer}"
+end
+```
+
+</details>
+
+<details><summary>I'm still stuck!</summary>
+Here is the structure of calculate:
+
+```rb
+def calculate
+  puts "Enter first number:"
+  num1 = gets.chomp.to_i
+  puts ""
+  puts "Enter second number:"
+  num2 = gets.chomp.to_i
+  puts ""
+  add(num1,num2)
+  subtract(num1,num2)
+  multiply(num1,num2)
+  divide(num1,num2)
+end
+
+calculate
+```
+
+</details>
 
 ## FizzBuzz in Ruby
 Remember FizzBuzz? It's that puzzle where you iterate from 1 to 100, printing "Fizz" for every multiple of 3, "Buzz" for everything multiple of 5, and "FizzBuzz" for every multiple of 3 && 5. All other numbers should just print themselves.
