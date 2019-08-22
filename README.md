@@ -232,7 +232,7 @@ You're playing Dungeons and Dragons, but you accidentally dropped your 20 sided 
 - Go back to the terminal and run the file you just created with `ruby dungeons.rb`
 
 The end result should look something like this in your terminal:
-```rb
+```
 Name your hero:
 David Magicbeard
 
