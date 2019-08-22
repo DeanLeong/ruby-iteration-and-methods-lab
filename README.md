@@ -20,7 +20,7 @@ Let's warm up by making some methods to do basic math.
 - Go back to the terminal and run the file you just created with `ruby calculator.rb`
 
 The end result should look something like this when run in your terminal:
-```rb
+```
 Enter first number:
 5
 
@@ -39,7 +39,7 @@ If you're stuck, start by taking a look at how methods are defined and called in
 <details><summary>Help! I'm still stuck!</summary>
  The first method should look something like this:
 
-```rb
+```
 def add(num1, num2)
   answer = num1 + num2
   puts "#{num1} + #{num2} = #{answer}"
@@ -52,7 +52,7 @@ end
 <details><summary>I'm STILL stuck!</summary>
 Here is the structure of calculate:
 
-```rb
+```
 def calculate
   puts "Enter first number:"
   num1 = gets.chomp.to_i
@@ -87,13 +87,13 @@ calculate
 
 The result should look something like this in your terminal:
 
-```rb
+```
 Your letter is c. Guess c's index number.
 2
 Whoa! You're like a genius when it comes to the alphabet!
 ```
 
-```rb
+```
 Your letter is z. Guess z's index number.
 1 
 You lose! Looks like you need to learn your ABC's. The index of z is actually 25.
@@ -167,7 +167,7 @@ fun!
 ## Sorting Hat
 The Sorting Hat drank too much butterbeer last night and can't remember what house anyone's supposed to be in. Luckily, you have a backup copy in the form of an array of objects below. 
 
-```rb
+```
 wizards = [
   {name: "Harry Potter", house: "Gryffindor"}, 
   {name: "Lord Voldomort", house: "Slytherin"}, 
@@ -195,7 +195,7 @@ Write a program that iterates through this array of objects and `puts` the names
 
 The end result should look something like this in your terminal:
 
-```rb
+```
 Gryffindor:
 Harry Potter
 Albus Dumbledor
