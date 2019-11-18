@@ -1,7 +1,7 @@
 # ruby-iteration-and-methods-lab
 Let's get some practice with basic Ruby! This repository contains a series of mini labs challenging you to write basic Ruby programs to solve problems.
 
-You may want to refer to our [Intro to Ruby lesson](https://git.generalassemb.ly/sei-nyc-pandas/ruby) to review.
+You may want to refer to our [Intro to Ruby lesson](https://git.generalassemb.ly/sei-nyc-dinosaurs/ruby) to review.
 
 To get started, `mkdir` a folder called `ruby_practice` and `cd` into it. 
 
