@@ -241,23 +241,23 @@ Hungover Bri-Guy
 
 Hit! David Magicbeard strikes Hungover Bri-Guy!
 Critical failure! Hungover Bri-Guy accidentally stabs self!
-David Magicbeard has 50 hitpoints left. Drake on Coffee has 35 hitpoints left.
+David Magicbeard has 50 hitpoints left. Hungover Bri-Guy has 35 hitpoints left.
 
 David Magicbeard misses!
 Hit! Hungover Bri-Guy strikes David Magicbeard!
-David Magicbeard has 40 hitpoints left. Drake on Coffee has 35 hitpoints left.
+David Magicbeard has 40 hitpoints left. Hungover Bri-Guy has 35 hitpoints left.
 
 Hit! David Magicbeard strikes Hungover Bri-Guy!
 Hit! Hungover Bri-Guy strikes David Magicbeard!
-David Magicbeard has 30 hitpoints left. Drake on Coffee has 25 hitpoints left.
+David Magicbeard has 30 hitpoints left. Hungover Bri-Guy has 25 hitpoints left.
 
 Critical hit! David Magicbeard does double damage!
 Hit! Hungover Bri-Guy strikes David Magicbeard!
-David Magicbeard has 20 hitpoints left. Drake on Coffee has 5 hitpoints left.
+David Magicbeard has 20 hitpoints left. Hungover Bri-Guy has 5 hitpoints left.
 
 Hit! David Magicbeard strikes Hungover Bri-Guy!
 Hit! Hungover Bri-Guy strikes David Magicbeard!
-David Magicbeard has 10 hitpoints left. Drake on Coffee has -5 hitpoints left.
+David Magicbeard has 10 hitpoints left. Hungover Bri-Guy has -5 hitpoints left.
 
 Hungover Bri-Guy has lost to David Magicbeard. The world is safe!... for now.
 ```
