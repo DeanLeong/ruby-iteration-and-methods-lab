@@ -33,7 +33,7 @@ Enter second number:
 5 / 3 = 1.6666666666666667
 ```
 
-If you're stuck, start by taking a look at how methods are defined and called in Ruby in our [intro lesson](https://git.generalassemb.ly/sei-nyc-pandas/ruby).
+If you're stuck, start by taking a look at how methods are defined and called in Ruby in our [intro lesson](https://git.generalassemb.ly/sei-nyc-phoenix/ruby-intro).
 
 
 <details><summary>Help! I'm still stuck!</summary>
